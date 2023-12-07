@@ -3,7 +3,7 @@ var dropdown = $("#metro-area-dropdown");
 
 $.ajax({
   type: "GET",
-  url: "https://raw.githubusercontent.com/datacult/Gloo-He-Gets-Us/main/msa-values.csv",
+  url: "https://raw.githubusercontent.com/TangoGroup/hegetsusdashboard/main/msa-vaules.csv",
   dataType: "text",
   success: function (data) {
     // handle the csv data and append each item to the dropdown list
